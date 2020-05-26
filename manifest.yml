@@ -1,5 +1,12 @@
----
 applications:
-- name:    web-family-gallery
-  random-route: true
-  memory:  128M
+- buildpacks:
+  - sdk-for-nodejs
+  command: npm start
+  domain: null
+  host: null
+  instances: 1
+  memory: 256M
+  name: web-family-gallery
+  routes:
+  - route: web-family-gallery-v110.us-south.cf.appdomain.cloud
+  timeout: 180

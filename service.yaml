@@ -8,6 +8,6 @@ spec:
   template:
     spec:
       containers:
-        - image: REGISTRY_URL/replace-me-namespace/webfamilygallery:BUILD_NUMBER
+        - image: REGISTRY_URL/web-family-gallery/webfamilygallery:BUILD_NUMBER
           ports:
             - containerPort: 3000
