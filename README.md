@@ -1,3 +1,8 @@
+web-family-gallery
+
+================================================================================
+App deyeloped by combining hello-node and COS-web-gallery examples
+
 bluemix-hello-node
 ================================================================================
 
