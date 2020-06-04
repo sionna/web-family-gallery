@@ -1,1 +1,1 @@
-{"build-release-ready":false,"build-debug-ready":false,"devops":false,"deploy-image":"","chart-path":"","ibm-cluster":"","motd-access":"Tue, 26 May 2020 12:09:03 AEST","app-id":"2c386b90-7074-4228-9132-891f4b8d74d9","deploy-target":"buildpack"}
+{"build-release-ready":false,"build-debug-ready":false,"devops":false,"deploy-image":"","chart-path":"","ibm-cluster":"","motd-access":"Wed, 03 Jun 2020 14:38:05 AEST","app-id":"2c386b90-7074-4228-9132-891f4b8d74d9","deploy-target":"buildpack"}
