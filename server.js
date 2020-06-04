@@ -5,10 +5,16 @@ var bodyParser = require("body-parser");
 app = express();
 
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3121;
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
+
+var title = 'Web Family Gallery';
+//Server index.ejs
+app.get('/', function(req, res) {
+  res.render('index', {status: '', title: title});
+});
 
 app.get("/sayHello", function (request, response) {
   var user_name = request.query.user_name;

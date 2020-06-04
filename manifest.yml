@@ -8,5 +8,5 @@ applications:
   memory: 256M
   name: web-family-gallery
   routes:
-  - route: web-family-gallery-v110.us-south.cf.appdomain.cloud
+  - route: web-family-gallery-v113.us-south.cf.appdomain.cloud
   timeout: 180
