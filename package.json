@@ -7,7 +7,7 @@
     "cfenv": "^1.2.2",
     "commander": "^2.6.0",
     "ejs": "^2.5.6",
-    "express": "^4.14.1",
+    "express": "^4.17.3",
     "http-post": "^0.1.1",
     "http-proxy": "^1.8.1"
   },
